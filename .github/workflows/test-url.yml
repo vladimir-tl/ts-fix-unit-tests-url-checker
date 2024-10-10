@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run Tests - url flow
 
 # Trigger the workflow on every push or pull request to the main branch
 on:
@@ -30,4 +30,4 @@ jobs:
 
       # Run tests
       - name: Run tests
-        run: npx jest
+        run: npx jest tests/url-checker.test.ts
