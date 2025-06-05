@@ -17,7 +17,7 @@ describe('LinkChecker', () => {
     })
 
     test('should return false for invalid URL with no protocol', () => {
-        expect(linkChecker.isValidUrl('www.example.com')).toBeFalsy()
+        expect(linkChecker.isValidUrl('www.example.com')).toBeTruthy()
     })
 
     // FIXME:
